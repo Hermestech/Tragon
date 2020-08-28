@@ -1,0 +1,229 @@
+<!doctype html>
+<html lang="en">
+  <head>
+     <!-- Required meta tags -->
+     <meta charset="utf-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+ 
+     <!-- Bootstrap CSS -->
+     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+     <link rel="stylesheet" href="css/main.css">
+     <title>Dragón Tragón</title>
+   </head>
+   <body data-spy="scroll" data-target="#navbar">
+    <title>Dragón Tragón</title>
+  </head>
+  <body>
+<!--Header-->
+   <header>
+      <nav id="header" class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container"> 
+        <a class="navbar-brand" href="#">
+              <img src="assets/Logo.png" alt="">
+              El Dragon Tragón
+          </a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item active">
+                <a class="nav-link" href="#main"><span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#main">        
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-platzi" href="#main" data-toggle="modal"data-target="#modalCompra">Contactanos       
+                </a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Dropdown
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <a class="dropdown-item" href="#modalCompra">Contactanos</a>
+                </div>
+              </li>
+            </ul>
+            </div>
+          </div>
+        </nav>
+  </header>
+  <!--/Header-->
+  <!--Main-->
+  <main id="main">
+    <div id="carousel" class="carousel slide" data-ride="carousel" data-pause="false">
+    <ol class="carousel-indicators">
+      <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+      <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+      <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+    </ol>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img class="d-block w-100" src="assets/images/hawaii3.jpeg" alt="First slide">
+      </div>
+      <div class="carousel-item">
+        <img class="d-block w-100" src="assets/images/hawaii2.jpg" alt="Second slide">
+      </div>
+      <div class="carousel-item">
+        <img class="d-block w-100" src="assets/images/hawaii.jpg" alt="Third slide">
+      </div>
+    </div>
+    
+    <div class="overlay"> 
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-md-6 offset-md-6 text-center text-md-right">
+            <h1>Platzi Conf Hawai</h1>
+            <p class="d-none d-md-block">Platzi Conf llega por primera vez a Hawaii! Un evento para compartir con nuestra comunidad el conocimiento y experiencia
+              de los expertos que están creando el futuro de internet.Ven a conocer a miembros del Team Platzi a otros Estudiantes de platzi
+              y a los oradores de primer nivel que tenemos para ti. ¡Te esperamos!
+            </p>
+            <a href="" class="btn btn-outline-light">Quiero ser Orador</a>
+            <button type="button" class="btn btn-platzi" data-toggle="modal" data-target="#modalCompra">Comprar tickets</button>
+          </div> 
+        </div>
+    
+      </div>
+    </div>
+    </div>
+    </main>
+  <!--/Main-->
+  <!--Productos-->
+
+  <section id="speakers" class="mt-4 mb-4">
+    <div class="container">
+      <div class="row">
+        <div class="col text-center text-uppercase">
+          <small> Conoce a los</small>
+          <h2>Oradores</h2>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-4 lg-4 s-12 mb-4">
+          <div class="card">
+            <img class="card-img-top" src="images/burguer1.jpg" alt="Card image cap">
+            <div class="card-body">
+              <div class="badges">
+                <span class="badge badge-warning">Hawaiana</span>
+                <span class="badge badge-warning">Con tocino</span>
+                <span class="badge badge-warning">Doble queso</span>
+                <span class="badge badge-warning">Dragona</span>
+              </div>
+              <h5 class="card-title mb-2">Hamburguesa</h5>
+              <p class="card-text">Nuestras hamburguesas pueden ser las mejores que hayas probado alguna vez. Carne de res, queso manchego, vegetales frescos, y suficiente poder para que seas todo un dragón. 👹👹👹</p>
+              <h6>$80</h6>
+            </div>
+          </div>
+        </div>
+  
+        <div class="col-md-4 lg-4 s-12 mb-4">
+          <div class="card">
+            <img class="card-img-top" src="images/burrito.jpg" alt="Card image cap">
+            <div class="card-body">
+              <div class="badges">
+                <!-- <span class="badge badge-warning">JavaScript</span>
+                <span class="badge badge-info">Front-End Development</span> -->
+              </div>
+              <h5 class="card-title mb-2">Burrito</h5>
+              <p class="card-text">Nuestro burrito contiene carne de res, pico de gallo, guacamole,queso, frijoles arroz y lechuga. Es suficiente comida para un sólo día. 🥰</p>
+              <h6>$80</h6>
+            </div>
+          </div>
+        </div>
+  
+        <div class="col-md-4 lg-4 s-12 mb-4">
+          <div class="card">
+            <img class="card-img-top" src="images/burguer2.jpg" alt="Card image cap">
+            <div class="card-body">
+              <div class="badges">
+                <!-- <span class="badge badge-warning">JavaScript</span> -->
+                <span class="badge badge-info">Hawaiana</span>
+              </div>
+              <h5 class="card-titl mb-0">Hamburguesa Hawaiana</h5>
+              <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt voluptatum consequatur saepe amet quod debitis, at ipsam culpa, fuga quibusdam laboriosam corporis quo corrupti. Aliquid perspiciatis non alias ullam cumque.</p>
+            </div>
+          </div>
+        </div>
+  
+        <div class="col-md-4 lg-4 s-12 mb-4">
+          <div class="card">
+            <img class="card-img-top" src="images/pizzaav.jpg" alt="Card image cap">
+            <div class="card-body">
+              <div class="badges">
+                <span class="badge badge-warning">Mexicana</span>
+                <span class="badge badge-warning">Jamón</span>
+                <span class="badge badge-warning">Frutas</span>
+                <span class="badge badge-warning">Vegetariana</span>
+                <span class="badge badge-warning">Cuatro Quesos</span>
+              </div>
+              <h5 class="card-title">Pizza Vegetaria</h5>
+              <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt voluptatum consequatur saepe amet quod debitis, at ipsam culpa, fuga quibusdam laboriosam corporis quo corrupti. Aliquid perspiciatis non alias ullam cumque.</p>
+              <h6>$40</h6>
+            </div>
+          </div>
+        </div>
+  
+        <div class="col-md-4 lg-4 s-12 mb-4" id="Sushi">
+          <div class="card">
+            <img class="card-img-top" src="images/Sushi.jpg" alt="Card image cap">
+            <div class="card-body">
+              <div class="badges">
+                <!-- <span class="badge badge-warning">JavaScript</span> -->
+                <span class="badge badge-info">Sushi's!</span>
+              </div>
+              <h5 class="card-title">Freddy Vega</h5>
+              <p class="card-text">Sushi sí, ¿No te gusta el sushi? es porque no has probado el nuestro, prueba todos nuestros rollos, tenemos frutales, empanizados y california. 
+                Suficente para acabar tu hambre de dragón. 👹❤❤🐱‍🐉
+              </p>
+              <h6>$55</h6>
+            </div>
+          </div>
+        </div>
+  
+        <div class="col-md-4 lg-4 s-12 mb-4">
+          <div class="card">
+            <img class="card-img-top" src="images/roles.jpg" alt="Card image cap">
+            <div class="card-body">
+              <div class="badges">
+                <span class="badge badge-success">Postres</span>
+                
+              </div>
+              <h5 class="card-title">Roles de canela y pasas ❤🥰</h5>
+              <p class="card-text">¿Te quedaste con hambre dragoncito? Nuestros roles con canela y pasas te van a encantar son ideales para estas fechas frías, acompañale con un cafecito y te encantará.
+              </p>
+              <h6>$60</h6>
+            </div>
+          </div>
+        </div>
+  
+  
+      </div>
+    </div>
+  
+  </section>
+  <!--footer-->>
+  <!--footer-->
+  <footer id=footer class="pb-4 pt-4">
+    <div class="container">
+        <div class="row text-center">
+            <div class="col-12 col-lg">
+                <a href="">Contactanos</a>
+            </div>
+        </div>
+    </div>
+</footer>
+<!--footer-->
+
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+  </body>
+</html>
