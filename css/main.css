@@ -1,5 +1,14 @@
- #header img {
+@import url('https://fonts.googleapis.com/css2?family=Aclonica&family=EB+Garamond&family=Krona+One&family=Oswald:wght@400;700&display=swap');
+*{
+    
+     font-family: 'EB Garamond', serif; 
+     
+}
+#header img {
     width: 80px;
+}
+h5{
+    font-family: 'Aclonica', sans-serif;
 }
 #footer{
     background: linear-gradient(90deg,#1c3643,#273b47 25%,#1e5372);
